@@ -10,4 +10,5 @@ function square_digits($num): int {
     
       return $resultado;
     }
+    
     ?>
