@@ -1,6 +1,16 @@
-Enlace al ejercicio Square Every Digit: https://www.codewars.com/kata/546e2562b03326a88e000020
+                                                                                    Enlaces a los ejercicios
+ 
+Square Every Digit: https://www.codewars.com/kata/546e2562b03326a88e000020
 
-Enunciado del ejercicio Square Every Digit:
+Multiples of 3 or 5: https://www.codewars.com/kata/514b92a657cdc65150000006
+
+Bit Counting: https://www.codewars.com/kata/526571aae218b8ee490006f4
+
+
+                                                                                    Enunciados de los ejercicios
+
+
+Square Every Digit:
 
 Welcome. In this kata, you are asked to square every digit of a number and concatenate them.
 
@@ -12,9 +22,8 @@ Note: The function accepts an integer and returns an integer.
 
 Happy Coding!
 
-Enlace del ejercicio Multiples of 3 or 5: https://www.codewars.com/kata/514b92a657cdc65150000006
 
-Enunciado del ejercicio Multiples of 3 or 5:
+Multiples of 3 or 5:
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
@@ -23,3 +32,10 @@ Finish the solution so that it returns the sum of all the multiples of 3 or 5 be
 Additionally, if the number is negative, return 0.
 
 Note: If the number is a multiple of both 3 and 5, only count it once.
+
+
+Bit Counting:
+
+Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
+
+Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
