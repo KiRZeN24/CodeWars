@@ -1,4 +1,4 @@
-Enlaces a los ejercicios
+        Enlaces a los ejercicios
  
 Square Every Digit: https://www.codewars.com/kata/546e2562b03326a88e000020
 
@@ -7,7 +7,7 @@ Multiples of 3 or 5: https://www.codewars.com/kata/514b92a657cdc65150000006
 Bit Counting: https://www.codewars.com/kata/526571aae218b8ee490006f4
 
 
-Enunciados de los ejercicios
+        Enunciados de los ejercicios
 
 
 Square Every Digit:
