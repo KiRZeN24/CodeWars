@@ -6,6 +6,8 @@ Multiples of 3 or 5: https://www.codewars.com/kata/514b92a657cdc65150000006
 
 Bit Counting: https://www.codewars.com/kata/526571aae218b8ee490006f4
 
+String ends with?: https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d
+
 
     Enunciados de los ejercicios
 
@@ -39,3 +41,12 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
 
 Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
+
+    String ends with?:
+
+Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
+
+Examples:
+
+solution('abc', 'bc') // returns true
+solution('abc', 'd') // returns false
