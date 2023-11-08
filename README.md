@@ -10,6 +10,8 @@ String ends with?: https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d
 
 Create Phone Number: https://www.codewars.com/kata/525f50e3b73515a6db000b83
 
+Replace With Alphabet Position: https://www.codewars.com/kata/546f922b54af40e1e90001da
+
 
     Enunciados de los ejercicios
 
@@ -64,3 +66,19 @@ createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
 The returned format must be correct in order to complete this challenge.
 
 Don't forget the space after the closing parentheses!
+
+
+    Replace With Alphabet Position
+
+Welcome.
+
+In this kata you are required to, given a string, replace every letter with its position in the alphabet.
+
+If anything in the text isn't a letter, ignore it and don't return it.
+
+"a" = 1, "b" = 2, etc.
+Example
+
+alphabetPosition("The sunset sets at twelve o' clock.")
+
+Should return "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11" ( as a string )
