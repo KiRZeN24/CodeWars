@@ -20,6 +20,8 @@ Who likes it?: https://www.codewars.com/kata/5266876b8f4bf2da9b000362
 
 You're a square!: https://www.codewars.com/kata/54c27a33fb7da0db0100040e
 
+Mumbling: https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
+
 
     Enunciados de los ejercicios
 
@@ -172,3 +174,15 @@ Examples
  4  =>  true
 25  =>  true
 26  =>  false
+
+
+    Mumbling
+
+This time no story, no theory. The examples below show you how to write function accum:
+Examples:
+
+accum("abcd") -> "A-Bb-Ccc-Dddd"
+accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt") -> "C-Ww-Aaa-Tttt"
+
+The parameter of accum is a string which includes only letters from a..z and A..Z.
