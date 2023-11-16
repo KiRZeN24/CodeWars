@@ -22,6 +22,8 @@ You're a square!: https://www.codewars.com/kata/54c27a33fb7da0db0100040e
 
 Mumbling: https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
 
+Shortest Word: https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9
+
 
     Enunciados de los ejercicios
 
@@ -186,3 +188,10 @@ accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 accum("cwAt") -> "C-Ww-Aaa-Tttt"
 
 The parameter of accum is a string which includes only letters from a..z and A..Z.
+
+
+    Shortest Word
+
+Simple, given a string of words, return the length of the shortest word(s).
+
+String will never be empty and you do not need to account for different data types.
