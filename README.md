@@ -24,6 +24,8 @@ Mumbling: https://www.codewars.com/kata/5667e8f4e3f572a8f2000039
 
 Shortest Word: https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9
 
+IP Validation: https://www.codewars.com/kata/515decfd9dcfc23bb6000006
+
 
     Enunciados de los ejercicios
 
@@ -195,3 +197,25 @@ The parameter of accum is a string which includes only letters from a..z and A..
 Simple, given a string of words, return the length of the shortest word(s).
 
 String will never be empty and you do not need to account for different data types.
+
+
+    IP Validation
+
+Write an algorithm that will identify valid IPv4 addresses in dot-decimal format. IPs should be considered valid if they consist of four octets, with values between 0 and 255, inclusive.
+Valid inputs examples:
+
+Examples of valid inputs:
+1.2.3.4
+123.45.67.89
+
+Invalid input examples:
+
+1.2.3
+1.2.3.4.5
+123.456.78.90
+123.045.067.089
+
+Notes:
+
+Leading zeros (e.g. 01.02.03.04) are considered invalid
+Inputs are guaranteed to be a single string
