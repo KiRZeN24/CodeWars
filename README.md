@@ -26,6 +26,8 @@ Shortest Word: https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9
 
 IP Validation: https://www.codewars.com/kata/515decfd9dcfc23bb6000006
 
+Valid Braces: https://www.codewars.com/kata/5277c8a221e209d3f6000b56/
+
 
     Enunciados de los ejercicios
 
@@ -219,3 +221,22 @@ Notes:
 
 Leading zeros (e.g. 01.02.03.04) are considered invalid
 Inputs are guaranteed to be a single string
+
+
+    Valid Braces
+
+Write a function that takes a string of braces, and determines if the order of the braces is valid. It should return true if the string is valid, and false if it's invalid.
+
+This Kata is similar to the Valid Parentheses Kata, but introduces new characters: brackets [], and curly braces {}. Thanks to @arnedag for the idea!
+
+All input strings will be nonempty, and will only consist of parentheses, brackets and curly braces: ()[]{}.
+What is considered Valid?
+
+A string of braces is considered valid if all braces are matched with the correct brace.
+Examples
+
+"(){}[]"   =>  True
+"([{}])"   =>  True
+"(}"       =>  False
+"[(])"     =>  False
+"[({})](]" =>  False
