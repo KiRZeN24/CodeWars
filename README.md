@@ -26,10 +26,9 @@ Shortest Word: https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9
 
 IP Validation: https://www.codewars.com/kata/515decfd9dcfc23bb6000006
 
-Valid Braces: https://www.codewars.com/kata/5277c8a221e209d3f6000b56/
+Valid Braces: https://www.codewars.com/kata/5277c8a221e209d3f6000b56
 
-
-Count characters in your string: 
+Count characters in your string: https://www.codewars.com/kata/52efefcbcdf57161d4000091
 
 
     Enunciados de los ejercicios
