@@ -29,6 +29,9 @@ IP Validation: https://www.codewars.com/kata/515decfd9dcfc23bb6000006
 Valid Braces: https://www.codewars.com/kata/5277c8a221e209d3f6000b56/
 
 
+Count characters in your string: 
+
+
     Enunciados de los ejercicios
 
 
@@ -240,3 +243,10 @@ Examples
 "(}"       =>  False
 "[(])"     =>  False
 "[({})](]" =>  False
+
+
+    Count characters in your string
+
+The main idea is to count all the occurring characters in a string. If you have a string like aba, then the result should be {'a': 2, 'b': 1}.
+
+What if the string is empty? Then the result should be empty object literal, {}.
