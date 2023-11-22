@@ -17,7 +17,7 @@ function isPangram(string) {
     }
   }
 
-  // Comparamo la cantidad de letras únicas con la cantidad total de letras del abecedario (26)
+  // Comparamos la cantidad de letras únicas con la cantidad total de letras del abecedario (26)
 
   return letrasUnicas.size === 26;
 }
