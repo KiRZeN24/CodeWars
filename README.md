@@ -32,6 +32,8 @@ Count characters in your string: https://www.codewars.com/kata/52efefcbcdf57161d
 
 Detect Pangram: https://www.codewars.com/kata/545cedaa9943f7fe7b000048
 
+Roman Numerals Decoder: https://www.codewars.com/kata/51b6249c4612257ac0000005
+
 
     Enunciados de los ejercicios
 
@@ -258,3 +260,30 @@ What if the string is empty? Then the result should be empty object literal, {}.
 A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).
 
 Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
+
+
+    Roman Numerals Decoder
+
+Create a function that takes a Roman numeral as its argument and returns its value as a numeric decimal integer. You don't need to validate the form of the Roman numeral.
+
+Modern Roman numerals are written by expressing each decimal digit of the number to be encoded separately, starting with the leftmost digit and skipping any 0s. So 1990 is rendered "MCMXC" (1000 = M, 900 = CM, 90 = XC) and 2008 is rendered "MMVIII" (2000 = MM, 8 = VIII). The Roman numeral for 1666, "MDCLXVI", uses each letter in descending order.
+Example:
+
+"MM"      -> 2000
+"MDCLXVI" -> 1666
+"M"       -> 1000
+"CD"      ->  400
+"XC"      ->   90
+"XL"      ->   40
+"I"       ->    1
+
+Help:
+
+Symbol    Value
+I          1
+V          5
+X          10
+L          50
+C          100
+D          500
+M          1,000
