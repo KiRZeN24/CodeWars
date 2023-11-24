@@ -34,6 +34,8 @@ Detect Pangram: https://www.codewars.com/kata/545cedaa9943f7fe7b000048
 
 Roman Numerals Decoder: https://www.codewars.com/kata/51b6249c4612257ac0000005
 
+Break camelCase: https://www.codewars.com/kata/5208f99aee097e6552000148
+
 
     Enunciados de los ejercicios
 
@@ -287,3 +289,13 @@ L          50
 C          100
 D          500
 M          1,000
+
+
+    Break camelCase
+
+Complete the solution so that the function will break up camel casing, using a space between words.
+Example
+
+"camelCasing"  =>  "camel Casing"
+"identifier"   =>  "identifier"
+""             =>  ""
