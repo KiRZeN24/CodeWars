@@ -1,1 +1,1 @@
-En este repositorio estan las Katas que hago en CodeWars.
+En este repositorio estan las Katas que resuelvo en CodeWars.
